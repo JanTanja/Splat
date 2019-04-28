@@ -15,6 +15,7 @@
 		3D1D69B42268054600446CB6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D1D69B22268054600446CB6 /* LaunchScreen.storyboard */; };
 		3DA701B522753C3D000D342C /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DA701B422753C3D000D342C /* User.swift */; };
 		3DA701B722753E69000D342C /* Chat.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DA701B622753E69000D342C /* Chat.swift */; };
+		3DA701B9227586FE000D342C /* AccountManagement.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DA701B8227586FE000D342C /* AccountManagement.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		3D1D69B52268054600446CB6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3DA701B422753C3D000D342C /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		3DA701B622753E69000D342C /* Chat.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chat.swift; sourceTree = "<group>"; };
+		3DA701B8227586FE000D342C /* AccountManagement.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountManagement.swift; sourceTree = "<group>"; };
 		948F1FAD039B9752B2442F8B /* Pods_Splat.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Splat.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D9976FA3068672D34E236138 /* Pods-Splat.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Splat.release.xcconfig"; path = "Target Support Files/Pods-Splat/Pods-Splat.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -73,6 +75,7 @@
 				3D1D69B52268054600446CB6 /* Info.plist */,
 				3DA701B422753C3D000D342C /* User.swift */,
 				3DA701B622753E69000D342C /* Chat.swift */,
+				3DA701B8227586FE000D342C /* AccountManagement.swift */,
 			);
 			path = Splat;
 			sourceTree = "<group>";
@@ -91,7 +94,6 @@
 				3A4D3895FE38E40072293279 /* Pods-Splat.debug.xcconfig */,
 				D9976FA3068672D34E236138 /* Pods-Splat.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -229,6 +231,7 @@
 				3DA701B722753E69000D342C /* Chat.swift in Sources */,
 				3D1D69AA2268054500446CB6 /* AppDelegate.swift in Sources */,
 				3DA701B522753C3D000D342C /* User.swift in Sources */,
+				3DA701B9227586FE000D342C /* AccountManagement.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
