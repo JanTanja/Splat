@@ -1,0 +1,6 @@
+framework module Pods_Splat {
+  umbrella header "Pods-Splat-umbrella.h"
+
+  export *
+  module * { export * }
+}
