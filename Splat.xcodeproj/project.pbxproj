@@ -16,6 +16,7 @@
 		3DA701B522753C3D000D342C /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DA701B422753C3D000D342C /* User.swift */; };
 		3DA701B722753E69000D342C /* Chat.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DA701B622753E69000D342C /* Chat.swift */; };
 		3DA701B9227586FE000D342C /* AccountManagement.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DA701B8227586FE000D342C /* AccountManagement.swift */; };
+		3DA701BB2276433E000D342C /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3DA701BA2276433E000D342C /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		3DA701B422753C3D000D342C /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		3DA701B622753E69000D342C /* Chat.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chat.swift; sourceTree = "<group>"; };
 		3DA701B8227586FE000D342C /* AccountManagement.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountManagement.swift; sourceTree = "<group>"; };
+		3DA701BA2276433E000D342C /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
 		948F1FAD039B9752B2442F8B /* Pods_Splat.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Splat.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D9976FA3068672D34E236138 /* Pods-Splat.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Splat.release.xcconfig"; path = "Target Support Files/Pods-Splat/Pods-Splat.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -73,6 +75,7 @@
 				3D1D69B02268054600446CB6 /* Assets.xcassets */,
 				3D1D69B22268054600446CB6 /* LaunchScreen.storyboard */,
 				3D1D69B52268054600446CB6 /* Info.plist */,
+				3DA701BA2276433E000D342C /* GoogleService-Info.plist */,
 				3DA701B422753C3D000D342C /* User.swift */,
 				3DA701B622753E69000D342C /* Chat.swift */,
 				3DA701B8227586FE000D342C /* AccountManagement.swift */,
@@ -158,6 +161,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3D1D69B42268054600446CB6 /* LaunchScreen.storyboard in Resources */,
+				3DA701BB2276433E000D342C /* GoogleService-Info.plist in Resources */,
 				3D1D69B12268054600446CB6 /* Assets.xcassets in Resources */,
 				3D1D69AF2268054500446CB6 /* Main.storyboard in Resources */,
 			);
@@ -203,6 +207,9 @@
 				"${BUILT_PRODUCTS_DIR}/FBSDKShareKit/FBSDKShareKit.framework",
 				"${BUILT_PRODUCTS_DIR}/FacebookCore/FacebookCore.framework",
 				"${BUILT_PRODUCTS_DIR}/FacebookLogin/FacebookLogin.framework",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
@@ -214,6 +221,9 @@
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSDKShareKit.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FacebookCore.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FacebookLogin.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;

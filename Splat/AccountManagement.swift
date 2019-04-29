@@ -14,8 +14,6 @@ class DataAcquisition {
     var users:[User] = []
     var chats:[Chat] = []
     static func createAccount() {
-        // perform checks
-        // add to users
         
     }
 }

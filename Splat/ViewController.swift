@@ -9,9 +9,7 @@
 import UIKit
 import FacebookCore
 import FacebookLogin
-
-
-
+import Firebase
 class ViewController: UIViewController {
 
     // This app will be called Splat :)
@@ -41,8 +39,48 @@ class ViewController: UIViewController {
         else {
             // render a message saying that you cannot proceed
             print("Incorrect username or password -- please try again!")
+            // call login
         }
     }
     
+    
+    
+    
+    // the following two functions should go to the accountmanagement.swift file
+    func login() {
+        if self.userNameInput.text == "" {
+            print("Error")
+        }
+        else {
+            Auth.auth().signIn(withEmail: self.userNameInput.text!, password: self.passwordInput.text!) { (user, error) in
+                
+                if (error == nil) {
+                    print("You have successfully logged in!")
+                }
+                else {
+                    print(error)
+                }
+            }
+        }
+    }
+    
+    
+    // assign the button call to go to the enxt segue, do this in next segue
+    func signUp() {
+        if self.userNameInput.text == "" {
+            print("Error")
+        }
+        else {
+            Auth.auth().createUser(withEmail: self.userNameInput.text!, password: self.passwordInput.text!) { (user, error) in
+                
+                if (error == nil) {
+                    print("Successfully signed up!")
+                }
+                else {
+                    print(error)
+                }
+            }
+        }
+    }
 }
 
